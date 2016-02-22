@@ -1,0 +1,172 @@
+#b1{
+background-image: url("img/backg.png");
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* MAIN HEADING  */
+
+#mainheading{
+position:absolute;top:190px;height:50px;text-align: center;
+}
+#header{
+text-shadow: 0.1em 0.1em 0.2em #657383;font-size:40px;font-family:algerian;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* NAVIGATION BAR */
+#main {
+list-style:none;
+float:left;
+background:turquoise;/*background colour of not only the individual lists but the entire row it takes up like a div*/
+}
+#main li{
+float:left;
+margin-right:2px;
+position:relative;
+}
+#main a{	display:block;/*applies to all anchor,<a> tags in the whole list thing*/
+	height:40px;width:145px;
+	text-align:center;
+	background:grey;
+	text-decoration:none;
+	color:white;
+}
+#main a:hover{
+	color:grey;
+	text-decoration:none;
+}
+#main ul{
+background:turquoise;
+
+background:rgba(255,255,255,0); /*makes the background transparent as compared to only the padded stuff*/
+left:-1000px;/*this does move the "ul" or the sub menus off the screen so when hover time come u cud bring it back*/
+
+position:absolute;/*makes sure it goes off the screen and also because the position is absolute,
+ it ignores the float from the previous heading and makes it go down straight*/
+list-style:none;
+}
+
+#main ul li{
+padding-top:1px;/*this creates a padding at the top to make it seem like a space was made*/
+float:none;/*no known reason for this*/
+}
+#main ul a{
+white-space:nowrap;/*this gives each link or listed name its own block like a real list this is why we refer specifically to the anchor tag in the sublist*/
+}
+#main li:hover ul{
+left:-40px;/*brings back the ul or entire sublist when u over the li or the main names like HOME and stuff*/
+}
+#main li:hover a{
+background:#8A0808;
+}
+
+#main li:hover ul a{/*changes background of the drop down list or ul to grey when hovering over main menu*/
+background:grey;
+}
+#main li:hover ul li a:hover{/*changes background of the drop down list or each link "a",anchor when being hovered and well text and stuff js formattin lol*/
+background:grey;
+color:#8A0808;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* LEFT BAR */
+
+#leftside{
+background:BLACK;position:absolute;left:0px;top:0px;
+}/*width:250px;
+*/
+
+.movingmenu{
+text-decoration:none;
+text-align:center;
+color:blue;font-weight:bold;
+position: relative;
+}
+nav{
+top:200px;
+position:relative;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* RIGHT BAR */
+#rightside{
+background-color:black;position:absolute;top:0px;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+#content{
+	/*width:700px;*/
+
+	position:absolute;
+	left:16%;
+	top:50px;
+	/*height:700px;*/
+	/*background-color:rgb(238,234,232);*/
+	background:black;
+	border-style:inset;
+	border-color:turquoise;
+	border-width:5px;
+	color:white;
+	font-family:cambria;
+	font-size:16px;
+	text-align: center;
+	padding-bottom: 50px;
+	}
+
+iframe{
+	width:560px;
+	height:315px ;
+}
+
+#h_type{
+	background-color:white;
+	left: 0;
+	height:auto;
+	position:static;
+	/*margin-top: 100px;*/
+	/*top:200px;*/
+	}
+/***********************************/
+#h_type p{
+	position:static;
+	top:0px;
+	font-family:Vijaya;
+	text-align:center;
+	font-size:23px;
+	font-weight:bold;
+	
+	}
+	
+.pos{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.navbar-des{
+	background:black;
+	opacity: .8;
+}
+
+/***********************************/
+#f_type{
+	background-color:rgb(190,198,205);
+	width:700px;
+	height:40px;
+	position:absolute;
+	font-size:19px;
+	text-align:center;
+	}
+.titles{
+	font-family:calibri;
+	font-size:18px;
+	font-weight:bold;
+	margin:20px;
+}
+
+
+.specialHead{
+border-bottom: 3px solid #b0b0b0;
+text-align: center;
+padding-bottom: 10px;
+}

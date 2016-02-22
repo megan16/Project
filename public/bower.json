@@ -1,0 +1,11 @@
+{
+  "name": "webapp",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "modernizr": "~2.8.2",
+    "highcharts": "~4.0.4",
+    "datatables": "~1.10.2",
+    "Jowin/Datatables-Bootstrap3": "https://github.com/Jowin/Datatables-Bootstrap3.git"
+  }
+}
