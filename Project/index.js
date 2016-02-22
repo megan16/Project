@@ -33,7 +33,7 @@ db.once('open', function(){
 
 //Establish connection with the mongo database called COMP3550 on the local machine
 //mongoose.connect('mongodb://127.0.0.1/SWeng1');
-mongoose.connect('mongodb://heroku_app35151497:auq6okd8jjscufcluum96ki3ia@ds061278.mongolab.com:61278/heroku_app35151497');//note if the database does not exist it will created it automatically
+mongoose.connect('mongodb://https://megan-project.herokuapp.com/');//note if the database does not exist it will created it automatically
 
 function configureModels(){
 	//Set up the values that are acceptable to the database

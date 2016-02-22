@@ -21,7 +21,7 @@ db.once('open', function (){
 });
 
 //Establish connection with the mongo database called COMP3550 on the local machine
-mongoose.connect('mongodb://127.0.0.1/comp3550'); //note if the database does not exist it will created it automatically
+mongoose.connect('mongodb://127.0.0.1/comp3990'); //note if the database does not exist it will created it automatically
 
 
 function setupEntities(){
